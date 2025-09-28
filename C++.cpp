@@ -218,12 +218,121 @@ int main()
     // }
     
     
+    // Program 5.12
+    // int marks;
+    // cout<<"Enter your marks:"<<endl;
+    // cin>>marks;
+    // if (marks>=90)
+    // {
+    //     cout<<"Your Grade is A."<<endl;
+    // }
+    // else if (marks>=80)
+    // {
+    //     cout<<"Your Grade is B."<<endl;
+    // }
+    // else if (marks>=70)
+    // {
+    //     cout<<"Your Grade is C."<<endl;
+    // }
+    // else if (marks>=60)
+    // {
+    //     cout<<"Your Grade is D."<<endl;
+    // }
+    // else
+    // {
+    //     cout<<"Your Grade is F."<<endl;
+    // }
+    
+    // Program 5.13
+    // int units;
+    // float bill, totalbill;
+    // cout<<"Enter the consumed units:"<<endl;
+    // cin>>units;
+    // if (units>500)
+    // {
+    //     bill = units*7;
+    // }
+    // else if (units>300)
+    // {
+    //     bill = units*5;
+    // }
+    // else
+    // {
+    //     bill = units*2;
+    // }
+    // totalbill=bill+150;
+    // if (totalbill>2000)
+    // {
+    //     totalbill=totalbill+(0.05*totalbill);
+    // }
+    // cout<<"The Total bill is "<<totalbill<<endl;
     
     
-
-
-
-
+    // Program 5.14
+    // float Area,Circumference,Radius;
+    // int Choice;
+    // cout<<"Enter the radius:"<<endl;
+    // cin>>Radius;
+    // cout<<"Enter Your choice:"<<endl;
+    // cin>>Choice;
+    // if (Choice==1)
+    // {
+    //     Area = Radius*Radius*3.14;
+    //     cout<<"The Area of the Circle is "<<Area<<endl;
+    // }
+    // else if (Choice==2)
+    // {
+    //     Circumference = 2*3.14*Radius;
+    //     cout<<"The Circumference of the Circle is "<<Circumference<<endl;
+    // }
+    // else
+    // {
+    //     cout<<"Invalid Choice"<<endl;
+    // }
+    
+    // Program 5.15
+    // int salary;
+    // float net_salary;
+    // cout<<"Enter the Salary:"<<endl;
+    // cin>>salary;
+    // if (salary>=20000)
+    // {
+    //     net_salary = salary-(salary*0.07);
+    // }
+    // else if (salary>=10000)
+    // {
+    //     net_salary = salary-1000;
+    // }
+    // else
+    // {
+    //     net_salary=salary;
+    // }
+    // cout<<"Your Net Salary is "<<net_salary<<endl;
+    
+    // Program 5.16
+    // int calls, bill, min=200;
+    // cout<<"Enter the Calls:"<<endl;
+    // cin>>calls;
+    // if (calls<=100)
+    // {
+    //     bill = min;
+    // }
+    // else if (calls<=150)
+    // {
+    //     bill = min + (calls-100)*0.6;
+    // }
+    // else if (calls <= 200)
+    // {
+    //     bill = min + (50*0.6) + (calls-150)*0.5;
+    // }
+    // else
+    // {
+    //     bill = min + (50*0.6) + (50+0.5) + (calls-200)*0.4;
+    // }
+    // cout<<"Total Bill is "<<bill<<endl;
+    
+    // Program 5.17
+    
 
 
 

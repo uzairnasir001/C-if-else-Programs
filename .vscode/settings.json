@@ -1,3 +1,6 @@
 {
-    "code-runner.clearPreviousOutput": false
+    "code-runner.clearPreviousOutput": false,
+    "files.associations": {
+        "ostream": "cpp"
+    }
 }
