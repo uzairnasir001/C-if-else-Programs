@@ -58,7 +58,7 @@ int main()
     // int sub2;
     // int sub3;
     // float avg;
-     
+
     // cout<<"Enter the first subject marks:"<<endl;
     // cin>>sub1;
     // cout<<"Enter the second subject marks:"<<endl;
@@ -75,9 +75,9 @@ int main()
     // {
     //     cout<<"Admission not Granted."<<endl;
     // }
-    
+
     // Program 5.5
-    
+
     // int a,b,c,max;
     // cout<<"Enter the first number:"<<endl;
     // cin>>a;
@@ -95,9 +95,9 @@ int main()
     //     max=c;
     // }
     // cout<<"The maximum number is "<<max<<endl;
- 
+
     // Program 5.6
-    
+
     // int n;
     // cout<<"Enter a number:"<<endl;
     // cin>>n;
@@ -113,9 +113,9 @@ int main()
     // {
     //     cout<<"The number is zero."<<endl;
     // }
-    
+
     // Program 5.7
- 
+
     // int a,b,c,d,e,min,max;
     // cout<<"Enter the five integers:"<<endl;
     // cin>>a>>b>>c>>d>>e;
@@ -155,7 +155,6 @@ int main()
     // }
     // cout<<"The maximum number is "<<max<<endl;
     // cout<<"The minimum number is "<<min<<endl;
-     
 
     // Program 5.8
     // int n;
@@ -169,7 +168,7 @@ int main()
     // {
     //    cout<<"The number is odd."<<endl;
     // }
-    
+
     // Program 5.9
     // int year;
     // cout<<"Enter a year:"<<endl;
@@ -182,7 +181,7 @@ int main()
     // {
     //     cout<<year<<" is not a leap year."<<endl;
     // }
-      
+
     // Program 5.10
     // float salary, bonous, total_salary;
     // int grade;
@@ -216,8 +215,7 @@ int main()
     // {
     //     cout<<"The first number is not the multiple of second number."<<endl;
     // }
-    
-    
+
     // Program 5.12
     // int marks;
     // cout<<"Enter your marks:"<<endl;
@@ -242,7 +240,7 @@ int main()
     // {
     //     cout<<"Your Grade is F."<<endl;
     // }
-    
+
     // Program 5.13
     // int units;
     // float bill, totalbill;
@@ -266,8 +264,7 @@ int main()
     //     totalbill=totalbill+(0.05*totalbill);
     // }
     // cout<<"The Total bill is "<<totalbill<<endl;
-    
-    
+
     // Program 5.14
     // float Area,Circumference,Radius;
     // int Choice;
@@ -289,7 +286,7 @@ int main()
     // {
     //     cout<<"Invalid Choice"<<endl;
     // }
-    
+
     // Program 5.15
     // int salary;
     // float net_salary;
@@ -308,7 +305,7 @@ int main()
     //     net_salary=salary;
     // }
     // cout<<"Your Net Salary is "<<net_salary<<endl;
-    
+
     // Program 5.16
     // int calls, bill, min=200;
     // cout<<"Enter the Calls:"<<endl;
@@ -330,9 +327,143 @@ int main()
     //     bill = min + (50*0.6) + (50+0.5) + (calls-200)*0.4;
     // }
     // cout<<"Total Bill is "<<bill<<endl;
-    
+
     // Program 5.17
+    // int a,b,c;
+    // cout<<"Enter three numbers:"<<endl;
+    // cin>>a>>b>>c;
+    // if (a<b)
+    // {
+    //     if (a<c)
+    //     {
+    //         cout<<"The smallest number is "<<a<<endl;
+    //     }
+    //     else
+    //     {
+    //         cout<<"The smallest number is "<<c<<endl;
+    //     }
+
+    // }
+    // else
+    // if (b<c)
+    // {
+    //     cout<<"The smallest number is "<<b<<endl;
+    // }
+    // else
+    // {
+    //     cout<<"The smallest number is "<<c<<endl;
+    // }
+
+    // Program 5.18
+    // int a,b,c;
+    // cout<<"Enter three numbers:"<<endl;
+    // cin>>a>>b>>c;
+    // if (a==b)
+    // {
+    //     if (a==c)
+    //     {
+    //         cout<<"All the number are equal."<<endl;
+    //     }
+    //     else
+    //     {
+    //         cout<<"All the numbers are not equal."<<endl;
+    //     }
+    // }
+    // else
+    // {
+    //     cout<<"All the numbers are not equal."<<endl;
+    // }
+
+    // Program 5.19
+    // int a,b,c;
+    // cout<<"Enter three numbers:"<<endl;
+    // cin>>a>>b>>c;
+    // if (a>b && a>c)
+    // {
+    //     cout<<"The maximum number is "<<a<<endl;
+    // }
+    // else if (b>a && b>c)
+    // {
+    //     cout<<"The maximum number is "<<b<<endl;
+    // }
+    // else
+    // {
+    //     cout<<"The maximum number is "<<c<<endl;
+    // }
+
+    //    Program 5.20
+    // char c;
+    // cout << "Enter a vowel:" << endl;
+    // cin >> c;
+    // if (c == 'a' || c == 'e' || c == 'i' || c == 'o' || c == 'u' || c == 'A' || c == 'E' || c == 'I' || c == 'O' || c == 'U')
+    // {
+    //     cout << "It is a vowel." << endl;
+    // }
+    // else
+    // {
+    //     cout << "It is not a vowel." << endl;
+    // }
+
+    // Program 5.21
+    // int month;
+    // cout<<"Enter the month number:"<<endl;
+    // cin>>month;
+    // if (month==1 ||  month==3 ||  month==5 ||  month==7 ||  month==8 ||  month==10 ||  month==12)
+    // {
+    //     cout<<"31Days."<<endl;
+    // }
+
+    // else if (month==4 || month==6 || month==9 || month==11 )
+    // {
+    //     cout<<"30Days."<<endl;
+    // }
+    // else if (month==2)
+    // {
+    //     cout<<"28Days or 29Days."<<endl;
+    // }
+    // else
+    // {
+    //     cout<<"Invalid Month."<<endl;
+    // }
     
+    // Program 5.22
+    // char ch;
+    // cout<<"Enter any character:"<<endl;
+    // cin>>ch;
+    // if ((ch>='A') && (ch<='Z'))
+    // {
+    //     cout<<"The character "<<ch<<" is a capital letter."<<endl;
+    // }
+    // else if ((ch>='a') && (ch<='z'))
+    // {
+    //     cout<<"The character "<<ch<<" is a small letter."<<endl;
+    // }
+    // else if((ch>='0') && (ch<='9'))
+    // {
+    //     cout<<"The character "<<ch<<" is a number."<<endl;
+    // }
+    // else
+    // {
+    //     cout<<"The character "<<ch<<" is a symbol."<<endl;
+    // }
+    
+    // Program 5.23
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
