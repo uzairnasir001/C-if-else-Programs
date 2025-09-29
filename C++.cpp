@@ -425,7 +425,7 @@ int main()
     // {
     //     cout<<"Invalid Month."<<endl;
     // }
-    
+
     // Program 5.22
     // char ch;
     // cout<<"Enter any character:"<<endl;
@@ -446,7 +446,7 @@ int main()
     // {
     //     cout<<"The character "<<ch<<" is a symbol."<<endl;
     // }
-    
+
     // Program 5.23
     // int n;
     // cout<<"Enter a number:"<<endl;
@@ -459,7 +459,7 @@ int main()
     // {
     //     cout<<"The number "<<n<<" is a even number."<<endl;
     // }
-    
+
     // Program 5.24
     // int a,b,c;
     // cout<<"Enter three numbers:"<<endl;
@@ -473,7 +473,7 @@ int main()
     //     cout<<c<<a<<b<<endl;
     //     cout<<c<<b<<a<<endl;
     // }
-    // else 
+    // else
     // {
     //     if ((a==b) && (a==c))
     //     {
@@ -500,11 +500,11 @@ int main()
     //                 cout<<a<<b<<c<<endl;
     //                 cout<<b<<c<<a<<endl;
     //                 cout<<b<<a<<c<<endl;
-    //             }    
+    //             }
     //         }
     //     }
     // }
-    
+
     // Program 5.25
     // int n;
     // cout<<"Enter number of a week day:"<<endl;
@@ -514,7 +514,7 @@ int main()
     // case 1:
     //     cout<<"Friday"<<endl;
     //     break;
-    
+
     // case 2:
     //     cout<<"Saturday"<<endl;
     //     break;
@@ -540,7 +540,7 @@ int main()
 
     // Program 5.26
     // char ch;
-    // cout<<"Enter an alphabet:"<<endl; 
+    // cout<<"Enter an alphabet:"<<endl;
     // cin>>ch;
     // switch (ch)
     // {
@@ -573,7 +573,7 @@ int main()
     //     break;
     // case 'u':
     //     cout<<"It is a vowel."<<endl;
-    //     break;    
+    //     break;
     // default:
     //      cout<<"It is not a vowel."<<endl;
     //     break;
@@ -614,13 +614,141 @@ int main()
     // }
 
     // Program 5.28
-    
+    // float t1,t2;
+    // int choice;
+    // cout<<"Enter your choice:"<<endl;
+    // cin>>choice;
+    // switch (choice)
+    // {
+    // case 1:
+    //     cout<<"Enter celsius temperature:"<<endl;
+    //     cin>>t1;
+    //     t2= (t1*9/5)+32;
+    //     cout<<t2<<" is ferhenheit temperature."<<endl;
+    //     break;
+    // case 2:
+    //    cout<<"Enter Ferhenheit temperature:"<<endl;
+    //    cin>>t1;
+    //    t2=(t1-32)*5/9;
+    //    cout<<t2<<" is Celsius temperature."<<endl;
+    // default:
+    //    cout<<"Invalid Choice."<<endl;
+    //     break;
+    // }
 
+    // Program 5.29
+    // int choice;
+    // float vol,height,radius,side;
+    // cout<<"Enter your choice:"<<endl;
+    // cin>>choice;
+    // switch (choice)
+    // {
+    // case 1:
+    //     cout<<"Enter the side of a cube;"<<endl;
+    //     cin>>side;
+    //     vol=side*side*side;
+    //     cout<<"The vol of a cube is "<<vol<<endl;
+    //     break;
+    // case 2:
+    //     cout<<"Enter the radius and height of the cylinder;"<<endl;
+    //     cin>>radius>>height;
+    //     vol=3.141*radius*radius*height;
+    //     cout<<"The vol of the cylinder is "<<vol<<endl;
+    //     break;
+    // case 3:
+    //     cout<<"Enter the radius of a sphere;"<<endl;
+    //     cin>>radius;
+    //     vol=(4/3)*3.141*radius*radius*radius;
+    //     cout<<"The vol of a sphere is "<<vol<<endl;
+    //     break;
+    // default:
+    //     cout<<"Invalid Choice."<<endl;
+    //     break;
+    // }
 
+    // Program 5.30
+    // float kilo, pounds;
+    // int choice;
+    // cout<<"Enter your choice:"<<endl;
+    // cin>>choice;
+    // switch (choice)
+    // {
+    // case 1:
+    //     cout<<"Enter weight in kilo."<<endl;
+    //     cin>>kilo;
+    //     pounds=kilo*2.20462;
+    //     cout<<"The weight in pounds is "<<pounds<<endl;
+    //     break;
+    // case 2:
+    //     cout<<"Enter weight in pounds."<<endl;
+    //     cin>>pounds;
+    //     kilo=pounds*0.453592;
+    //     cout<<"The weight in kilo is "<<kilo<<endl;
+    //     break;
+    // default:
+    // cout<<"Invalid Choice."<<endl;
+    //     break;
+    // }
 
+    // Program 5.31
+    // int months, choice;
+    // float charges;
+    // cout << "Enter your choice:" << endl;
+    // cin >> choice;
+    // if ((choice >= 1) && (choice <= 3))
+    // {
+    //     cout << "For how many months:" << endl;
+    //     cin >> months;
+    //     switch (choice)
+    //     {
 
+    //     case 1:
+    //         charges = months * 50;
+    //         cout << charges << endl;
+    //         break;
+    //     case 2:
+    //         charges = months * 20;
+    //         cout << charges << endl;
+    //         break;
+    //     case 3:
+    //         charges = months * 30;
+    //         cout << charges << endl;
+    //         break;
+            
+    //     }    
+    // }
+    // else if (choice!=4)
+    // {
+    //     cout<<"Invalid Choice"<<endl;
+    // }
 
+    // Program 5.32
+    // int num, choice;
+    // char ch;
+    // cout<<"Enter your choice:"<<endl;
+    // cin>>choice;
+    // switch(choice)
+    // {
+    // case 1:
+    //     cout<<"Enter a number:"<<endl;
+    //     cin>>num;
+    //     cout<<"The value of "<<num<<" is "<<char(num)<<endl;
+    //     break;
+    // case 2:
+    //     cout<<"Enter a character:"<<endl;
+    //     cin>>ch;
+    //     cout<<"The value of "<<ch<<" is "<<int(ch)<<endl;
+    //     break;
+    // default:
+    // cout<<"Invalid choice."<<endl;
+    //     break;
+    // }
 
+    // Program 5.33
+    // int marks;
+    // cout<<"Enter the Marks:"<<endl;
+    // cin>>marks;
+    // cout<<"Result is "<<(marks>40 ? "Pass" : "Fail")<<endl;
 
 
 
