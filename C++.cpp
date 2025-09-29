@@ -714,8 +714,8 @@ int main()
     //         charges = months * 30;
     //         cout << charges << endl;
     //         break;
-            
-    //     }    
+
+    //     }
     // }
     // else if (choice!=4)
     // {
@@ -750,49 +750,31 @@ int main()
     // cin>>marks;
     // cout<<"Result is "<<(marks>40 ? "Pass" : "Fail")<<endl;
 
+    // Program 5.34
+    // int num;
+    // cout<<"Enter a number:"<<endl;
+    // cin>>num;
+    // cout<<"The number "<<num<<(num%3==0 ? " is Divible by 3." : " is not Divisible by 3.")<<endl;
+
+    // Program 5.35
+    // int num;
+    // cout<<"Enter a number:"<<endl;
+    // cin>>num;
+    // cout<<"The number "<<num<<(num%2==0 ? " is even." : " is odd.")<<endl;
+    
+    // Program 5.36
+    // int count=1;
+    // start:
+    // cout<<count<<" C++"<<endl;
+    // count++;
+    // if (count<=5) goto start;
+    // {
+    //     cout<<"End of Program."<<endl;
+    // }
+    
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+   
 
 
 
