@@ -448,17 +448,173 @@ int main()
     // }
     
     // Program 5.23
+    // int n;
+    // cout<<"Enter a number:"<<endl;
+    // cin>>n;
+    // if (!(n%2==0))
+    // {
+    //     cout<<"The number "<<n<<" is a odd number."<<endl;
+    // }
+    // else
+    // {
+    //     cout<<"The number "<<n<<" is a even number."<<endl;
+    // }
+    
+    // Program 5.24
+    // int a,b,c;
+    // cout<<"Enter three numbers:"<<endl;
+    // cin>>a>>b>>c;
+    // if ((a!=b) && (b!=c) && (c!=a))
+    // {
+    //     cout<<a<<b<<c<<endl;
+    //     cout<<a<<c<<b<<endl;
+    //     cout<<b<<a<<c<<endl;
+    //     cout<<b<<c<<a<<endl;
+    //     cout<<c<<a<<b<<endl;
+    //     cout<<c<<b<<a<<endl;
+    // }
+    // else 
+    // {
+    //     if ((a==b) && (a==c))
+    //     {
+    //         cout<<a<<b<<c<<endl;
+    //     }
+    //     else
+    //     {
+    //         if (a==b)
+    //         {
+    //             cout<<a<<b<<c<<endl;
+    //             cout<<c<<a<<b<<endl;
+    //             cout<<a<<c<<b<<endl;
+    //         }
+    //         else
+    //         {
+    //             if (a==c)
+    //             {
+    //                 cout<<a<<b<<c<<endl;
+    //                 cout<<a<<c<<b<<endl;
+    //                 cout<<b<<a<<c<<endl;
+    //             }
+    //             else
+    //             {
+    //                 cout<<a<<b<<c<<endl;
+    //                 cout<<b<<c<<a<<endl;
+    //                 cout<<b<<a<<c<<endl;
+    //             }    
+    //         }
+    //     }
+    // }
+    
+    // Program 5.25
+    // int n;
+    // cout<<"Enter number of a week day:"<<endl;
+    // cin>>n;
+    // switch (n)
+    // {
+    // case 1:
+    //     cout<<"Friday"<<endl;
+    //     break;
+    
+    // case 2:
+    //     cout<<"Saturday"<<endl;
+    //     break;
+    // case 3:
+    //    cout<<"Sunday"<<endl;
+    //    break;
+    // case 4:
+    //    cout<<"Monday"<<endl;
+    //    break;
+    // case 5:
+    //   cout<<"Tuesday"<<endl;
+    //   break;
+    // case 6:
+    //   cout<<"Wednesday"<<endl;
+    //   break;
+    // case 7:
+    //  cout<<"Thursday"<<endl;
+    //  break;
+    // default:
+    //  cout<<"Invalid Number"<<endl;
+    // break;
+    // }
 
+    // Program 5.26
+    // char ch;
+    // cout<<"Enter an alphabet:"<<endl; 
+    // cin>>ch;
+    // switch (ch)
+    // {
+    // case 'A':
+    //     cout<<"It is a vowel."<<endl;
+    //     break;
+    // case 'E':
+    //     cout<<"It is a vowel."<<endl;
+    //     break;
+    // case 'I':
+    //     cout<<"It is a vowel."<<endl;
+    //     break;
+    // case 'O':
+    //     cout<<"It is a vowel."<<endl;
+    //     break;
+    // case 'U':
+    //     cout<<"It is a vowel."<<endl;
+    //     break;
+    // case 'a':
+    //     cout<<"It is a vowel."<<endl;
+    //     break;
+    // case 'e':
+    //     cout<<"It is a vowel."<<endl;
+    //     break;
+    // case 'i':
+    //     cout<<"It is a vowel."<<endl;
+    //     break;
+    // case 'o':
+    //     cout<<"It is a vowel."<<endl;
+    //     break;
+    // case 'u':
+    //     cout<<"It is a vowel."<<endl;
+    //     break;    
+    // default:
+    //      cout<<"It is not a vowel."<<endl;
+    //     break;
+    // }
 
+    // Program 5.27
+    // float a,b;
+    // char op;
+    // cout<<"Enter first number:"<<endl;
+    // cin>>a;
+    // cout<<"Enter a operator:"<<endl;
+    // cin>>op;
+    // cout<<"Enter second number:"<<endl;
+    // cin>>b;
+    // switch (op)
+    // {
+    // case '+':
+    //     cout<<a+b<<endl;
+    //     break;
+    // case '-':
+    //     cout<<a-b<<endl;
+    //     break;
+    // case '*':
+    //     cout<<a*b<<endl;
+    //     break;
+    // case '/':
+    //    if (b==0)
+    //    {
+    //     cout<<"Division by zero."<<endl;
+    //    }
+    //    else
+    //    {
+    //     cout<<a/b<<endl;
+    //    }
+    // default:
+    //    cout<<"Invalid operator."<<endl;
+    //     break;
+    // }
 
-
-
-
-
-
-
-
-
+    // Program 5.28
+    
 
 
 
